@@ -1,0 +1,22 @@
+.menus {
+  background-color: $color-body-background;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0 1.5rem;
+  height: 4rem;
+  min-width: 16rem;
+  padding-left: 1rem;
+
+  & > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translateY(-0.1rem);
+  }
+  & > p {
+    font-style: 1.4rem;
+    font-weight: bold;
+    color: #757998;
+    padding-left: 0.5rem;
+  }
+}

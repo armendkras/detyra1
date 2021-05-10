@@ -1,0 +1,115 @@
+.padding {
+  padding: 0 3rem;
+}
+.SideDrawer {
+  position: fixed;
+  padding: 3rem 0;
+  width: 30%;
+  min-width: 400px;
+  max-width: 70%;
+  height: 100%;
+  left: 100%;
+  top: 0;
+  z-index: 200;
+  background-color: white;
+
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+  background-color: white;
+}
+.Open {
+  transform: translateX(-100%);
+  box-shadow: -1px 0px 50px 0.2px #aaaaaa;
+}
+.Close {
+  transform: translateX(0);
+}
+.sidedrawer-container {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & > img {
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.2);
+      }
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
+  &__form {
+    margin-top: 6rem;
+    &-input {
+      display: flex;
+      height: 3.5rem;
+      width: 100%;
+      border: 1px solid #ebebeb;
+      border-radius: 5px;
+      padding: 0 2rem;
+      margin: 2rem 0rem;
+      color: #757998;
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: Heebo;
+      outline: none;
+      &:active,
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: Heebo;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+  &__footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-top: 1px solid #f0f0f0;
+
+    &-left {
+      display: flex;
+      align-items: center;
+      color: #356fcf;
+      font-size: 1.4rem;
+      font-weight: bold;
+      & > p {
+        padding-left: 0.5rem;
+      }
+    }
+    &-right {
+      & > button {
+        display: flex;
+        align-items: center;
+        font-family: Heebo;
+        cursor: pointer;
+        border: none;
+        background-color: #356fcf;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        margin-right: 2rem;
+        &:hover {
+          background-color: lighten($color: #356fcf, $amount: 5%);
+        }
+        &:active {
+          background-color: darken($color: #356fcf, $amount: 10%);
+        }
+        & > img {
+          padding-right: 0.5rem;
+        }
+      }
+    }
+  }
+}

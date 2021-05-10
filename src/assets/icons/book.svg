@@ -1,0 +1,14 @@
+<svg id="Icon_File" data-name="Icon/File" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M1.2,13.2A1.2,1.2,0,0,1,0,12V1.2A1.2,1.2,0,0,1,1.2,0H7.66a1.2,1.2,0,0,1,.8.3L10.4,2.027a1.2,1.2,0,0,1,.4.9V12a1.2,1.2,0,0,1-1.2,1.2Zm0-1.2H9.6V10.8H1.2ZM9.6,9.6V2.924l-1.8-1.6V3.63h.893a.6.6,0,1,1,0,1.2H7.2a.6.6,0,0,1-.6-.6V1.2H1.2V9.6Z" fill="#757998"/>
+    </clipPath>
+  </defs>
+  <path id="Grid" d="M0,0H18V18H0Z" fill="none"/>
+  <path id="Mask-2" data-name="Mask" d="M1.2,13.2A1.2,1.2,0,0,1,0,12V1.2A1.2,1.2,0,0,1,1.2,0H7.66a1.2,1.2,0,0,1,.8.3L10.4,2.027a1.2,1.2,0,0,1,.4.9V12a1.2,1.2,0,0,1-1.2,1.2Zm0-1.2H9.6V10.8H1.2ZM9.6,9.6V2.924l-1.8-1.6V3.63h.893a.6.6,0,1,1,0,1.2H7.2a.6.6,0,0,1-.6-.6V1.2H1.2V9.6Z" transform="translate(3.6 2.4)" fill="#757998"/>
+  <g id="Icon_File-2" data-name="Icon/File" transform="translate(3.6 2.4)" clip-path="url(#clip-path)">
+    <g id="Color" transform="translate(-3.6 -2.4)">
+      <path id="Icon_Fill_Dark" data-name="Icon/🖌 Fill/Dark" d="M0,0H18V18H0Z" fill="#757998"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  //This defines what 1rem is
+  font-size: 62.5%;
+  font-family: Heebo;
+}
+body {
+  box-sizing: border-box;
+  background-color: $color-body-background;
+}
+
+@media only screen and (max-width: 1100px) {
+  html {
+    //This defines what 1rem is
+    font-size: 52.5%;
+    font-family: Heebo;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    //This defines what 1rem is
+    font-size: 42.5%;
+    font-family: Heebo;
+  }
+}
+@media only screen and (max-width: 800px) {
+  html {
+    //This defines what 1rem is
+    font-size: 32.5%;
+    font-family: Heebo;
+  }
+}
+@media only screen and (max-width: 700px) {
+  html {
+    //This defines what 1rem is
+    font-size: 22.5%;
+    font-family: Heebo;
+  }
+}

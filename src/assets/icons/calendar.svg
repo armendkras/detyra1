@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M1.333,13.333A1.335,1.335,0,0,1,0,12V2.666A1.335,1.335,0,0,1,1.333,1.333H2.666V2.666H1.333v2H12v-2H10.667V1.333H12a1.335,1.335,0,0,1,1.333,1.333V12A1.335,1.335,0,0,1,12,13.333Zm0-1.333H12V6H1.333ZM10,10.667V9.334h1.333v1.333Zm-2.667,0V9.334H8.666v1.333Zm-2.666,0V9.334H6v1.333ZM2,10.667V9.334H3.334v1.333ZM10,8V6.667h1.333V8ZM7.333,8V6.667H8.666V8ZM4.667,8V6.667H6V8Zm4-5.333v-2A.667.667,0,0,1,10,.667v2a.667.667,0,1,1-1.334,0Zm-5.333,0v-2a.667.667,0,0,1,1.333,0v2a.667.667,0,1,1-1.333,0Zm2,0V1.333H8V2.666Z" fill="#757998"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Calendar" data-name="Icon/Calendar" transform="translate(-0.099 -0.08)">
+    <path id="Grid" d="M0,0H20V20H0Z" transform="translate(0.099 0.08)" fill="none"/>
+    <path id="Mask-2" data-name="Mask" d="M1.333,13.333A1.335,1.335,0,0,1,0,12V2.666A1.335,1.335,0,0,1,1.333,1.333H2.666V2.666H1.333v2H12v-2H10.667V1.333H12a1.335,1.335,0,0,1,1.333,1.333V12A1.335,1.335,0,0,1,12,13.333Zm0-1.333H12V6H1.333ZM10,10.667V9.334h1.333v1.333Zm-2.667,0V9.334H8.666v1.333Zm-2.666,0V9.334H6v1.333ZM2,10.667V9.334H3.334v1.333ZM10,8V6.667h1.333V8ZM7.333,8V6.667H8.666V8ZM4.667,8V6.667H6V8Zm4-5.333v-2A.667.667,0,0,1,10,.667v2a.667.667,0,1,1-1.334,0Zm-5.333,0v-2a.667.667,0,0,1,1.333,0v2a.667.667,0,1,1-1.333,0Zm2,0V1.333H8V2.666Z" transform="translate(3.333 3.333)" fill="#757998"/>
+    <g id="Icon_Calendar-2" data-name="Icon/Calendar" transform="translate(3.333 3.333)" clip-path="url(#clip-path)">
+      <g id="Color" transform="translate(-3.333 -3.333)">
+        <path id="Icon_Fill_Accent" data-name="Icon/🖌 Fill/Accent" d="M0,0H20V20H0Z" transform="translate(0.099 0.08)" fill="#757998"/>
+      </g>
+    </g>
+  </g>
+</svg>
